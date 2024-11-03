@@ -1,0 +1,109 @@
+.image-card {
+  position: relative;
+  width: 100%;
+  height: 400px;
+  border-radius: 24px;
+  overflow: hidden;
+  margin-bottom: 16px;
+}
+
+.image-card img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+.image-overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 32px 24px;
+}
+
+.text-content {
+  color: white;
+}
+
+.text-content h1 {
+  font-size: 32px;
+  font-weight: 600;
+  margin-bottom: 8px;
+}
+
+.text-content h2 {
+  font-size: 32px;
+  font-weight: 600;
+}
+
+.input-group {
+  margin-top: 12px;
+  margin-bottom: 0px;
+}
+
+.phone-input {
+  background-color: #f8f9fa;
+  border-radius: 16px;
+  padding: 16px 20px;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.phone-icon {
+  font-size: 20px;
+}
+
+.phone-input input {
+  border: none;
+  background: none;
+  width: 100%;
+  font-size: 16px;
+  color: #333;
+  outline: none;
+}
+
+.phone-input input::placeholder {
+  color: #adb5bd;
+}
+
+.otp-button {
+  background-color: #4361ee;
+  color: white;
+  border: none;
+  border-radius: 16px;
+  padding: 16px;
+  font-size: 16px;
+  font-weight: 500;
+  width: 100%;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.otp-button:hover {
+  background-color: #3a54d6;
+}
+
+.resendbtn {
+  display: flex;
+  justify-content: end;
+}
+/* For better mobile experience */
+@media (max-width: 768px) {
+  .login-container {
+    padding: 4px;
+  }
+
+  .text-content h1,
+  .text-content h2 {
+    font-size: 28px;
+  }
+}
+
+/* To ensure the page fills the viewport on smaller content */
+@media (min-height: 700px) {
+  .login-container {
+    justify-content: flex-start;
+  }
+}
