@@ -12,7 +12,7 @@ const BottomNavigation = () => {
             <Home size={24} />
           </div>
         </Link>
-        <Link to="#">
+        <Link to="/bookingdetails">
           <div className="nav-item">
             <Calendar size={24} />
           </div>

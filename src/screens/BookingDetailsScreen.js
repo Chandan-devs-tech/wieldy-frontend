@@ -12,7 +12,7 @@ const BookingDetails = () => {
 
       <div className="hotel-card">
         <img src={hotelImg} alt="Piccadilly Hotel" className="hotel-image" />
-        <div className="hotel-name">Piccadilly Hotel</div>
+        <div className="hotel-name">Hotel Wieldy</div>
       </div>
 
       <div className="booking-section">

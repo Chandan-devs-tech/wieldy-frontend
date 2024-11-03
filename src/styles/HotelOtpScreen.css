@@ -30,11 +30,13 @@
   font-size: 32px;
   font-weight: 600;
   margin-bottom: 8px;
+  color: #fff;
 }
 
 .text-content h2 {
   font-size: 32px;
   font-weight: 600;
+  text-align: start;
 }
 
 .input-group {

@@ -111,6 +111,12 @@
   background-position: center;
 }
 
+.welcome-card h1 {
+  font-size: 30px;
+  text-align: start;
+  color: #fff;
+}
+
 .welcome-card::before {
   content: "";
   position: absolute;
